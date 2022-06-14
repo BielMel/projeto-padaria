@@ -1,0 +1,29 @@
+header section {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f5d69f;
+  box-shadow: 10px 5px 12px rgba(0, 0, 0, 0.692);
+}
+
+.container img {
+  max-width: 200px;
+  max-height: 250px;
+}
+
+header nav ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 0 15px;
+  color: #3399cc;
+
+}
